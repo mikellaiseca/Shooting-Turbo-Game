@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/gameoverstyles.css">
+</head>
+<body>
+
+
+    <div class="game-div">
+        <canvas id="myCanvas" class="inactive"></canvas>
+
+        <div class="menu">
+            <div class="left-menu">
+                <p class="lives">Lives: <span>10</span></p>
+                <p class="count-down">Count Down: <span>15</span></p>
+            </div>
+            <div class="right-menu">
+                <p class="score">Score: <span>0</span></p>
+                <p class="turbo-score">Turbo Score: <span>0</span></p>
+            </div>        
+        </div>
+
+        <audio src="audio/BG-audio.mp3" autoplay loop></audio>
+    </div>
+
+    
+        <section class="main">
+            <h1>Game Over</h1>
+            <p class="total-score">Total Score: <span>0</span></p>
+            <a href="index.html" class="retry">Retry</a>
+        </section>
+    
+
+    <script src="js/background.js"></script>
+    <script src="js/enemy1.js"></script>
+    <script src="js/enemy2.js"></script>
+    <script src="js/bonus.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

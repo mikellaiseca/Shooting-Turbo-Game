@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    color: black;
+}
+
+.menu {
+    background-color: skyblue;
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-menu .lives {
+    padding-bottom: 30px;
+}
+
+.right-menu .score {
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+#myCanvas.inactive {
+    cursor: url("../images/mirilla32px.png"), auto;
+}
+
+#myCanvas.active {
+    cursor: url("../images/machine-gun.png"), auto;
+}
+

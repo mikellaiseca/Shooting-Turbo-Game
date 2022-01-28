@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+} */
+
+.main {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+    padding-bottom: 60px;
+}
+
+.retry {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}

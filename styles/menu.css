@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    background-image: url('../images/sky.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: 2.8em;
+
+}
+
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 100px;
+}
